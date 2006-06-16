@@ -1,0 +1,18 @@
+DESCRIPTION="Simple puzzle"
+SRC_URI="http://www.artsoft.org/RELEASES/unix/${PN}/${P}.tar.gz"
+SRC_DIR="${PN}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
+
+src_test() {
+	:
+}
+
+src_install() {
+	cd ${B}
+	dobin affenspiel.exe
+}

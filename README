@@ -1,0 +1,58 @@
+affenspiel
+-------------------------------------------
+A simple puzzle game for X11. Shift the puzzle pieces around so that the
+monkey becomes complete, that means, move the big piece through the
+other pieces to the bottom of the playfield, so that the monkey picture
+gets complete.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  libX11_6-1.0.0-2
+
+Build requirements:
+  cygwin-1.5.19-4
+  binutils-20050610-1
+  cygport-0.1.92-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+
+Canonical homepage:
+  http://www.artsoft.org/affenspiel/
+
+Canonical download:
+  http://www.artsoft.org/RELEASES/unix/affenspiel/
+
+-------------------------------------------
+
+Build instructions:
+  unpack affenspiel-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./affenspiel-1.0-X.cygport all
+
+This will create:
+  /usr/src/affenspiel-1.0-X-src.tar.bz2
+  /usr/src/affenspiel-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/affenspiel.exe
+  /usr/share/doc/Cygwin/affenspiel-1.0.README
+  /usr/share/doc/affenspiel-1.0/COPYRIGHT
+  /usr/share/doc/affenspiel-1.0/README
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
