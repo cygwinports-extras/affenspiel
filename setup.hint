@@ -1,5 +1,5 @@
 category: Games
-requires: cygwin libX11_6
+requires: libX11_6
 sdesc: "Simple puzzle game for X11"
 ldesc: "A simple puzzle game for X11. Shift the puzzle pieces around so
 that the monkey becomes complete, that means, move the big piece through
